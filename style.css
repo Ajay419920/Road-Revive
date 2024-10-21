@@ -1,0 +1,156 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+.btn-outline-secondary{
+    border: none;
+    background-color: aqua;
+    --bs-btn-hover-color: none;
+    --bs-btn-hover-bg: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link{
+    color: #000000;
+    font-weight: 600;
+}
+/* ====================================== */
+
+
+h1{
+    font-weight: 900;
+    position: relative;
+    top: 3rem;
+    color: brown;
+   
+}
+  
+.home{
+    background-image: url("image/b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: #fff;
+    text-align: center;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ======================= */
+
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product {
+        flex: 1 1 calc(25% - 20px); 
+        margin: 10px;
+        text-align: center;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 10px;
+        
+    }
+    .img-fluid{
+        height: 239px;
+    }
+
+
+/* ====================================== */
+
+.last-col{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:600px) {
+
+    .last-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+.h2{
+    font-size: medium;
+    font-weight: 900;
+
+}
+
+
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.footer .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.footer-info, .footer-social {
+    margin: 10px 0; 
+}
+
+.footer-social ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-social ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.footer-social ul li a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #FF5733;
+}
+
+
+
+@media (min-width: 600px) {
+    .footer .container {
+        flex-direction: row; 
+        justify-content: space-between; 
+        text-align: left; 
+    }
+    
+    .footer-info, .footer-social {
+        flex: 1;
+        margin: 0 20px;
+    }
+} 
+
+

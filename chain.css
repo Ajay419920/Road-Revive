@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+
+.btn-outline-secondary{
+    border: none;
+    background-color: aqua;
+    --bs-btn-hover-color: none;
+    --bs-btn-hover-bg: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link{
+    color: #000000;
+    font-weight: 600;
+}
+
+/* ====================== */
+
+
+h1{
+    padding: 1rem;
+    color: blue;
+}
+
+.card-img-top{
+    object-fit: cover;
+}
+
+.card-title{
+    color: lightcoral;
+}
+
+.card-text{
+    color: blueviolet;
+}
+
+.last-col{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+} 
+
+.h2{
+    font-size: medium;
+    font-weight: 900;
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .last-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+/* ================= */
+
+
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.footer .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.footer-info, .footer-social {
+    margin: 10px 0; 
+}
+
+.footer-social ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-social ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.footer-social ul li a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #FF5733;
+}
+
+
+
+@media (min-width: 600px) {
+    .footer .container {
+        flex-direction: row; 
+        justify-content: space-between; 
+        text-align: left; 
+    }
+    
+    .footer-info, .footer-social {
+        flex: 1;
+        margin: 0 20px;
+    }
+}
+
