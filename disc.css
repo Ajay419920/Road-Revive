@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -11,52 +11,53 @@ body {
 
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     border: none;
     background-color: aqua;
     --bs-btn-hover-color: none;
     --bs-btn-hover-bg: none;
 }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.nav-link{
+.nav-link {
     color: #000000;
     font-weight: 600;
 }
 
 /* ===================== */
 
-.s-img{
+.s-img {
     margin-top: 2rem;
     padding: 1rem;
     object-fit: cover;
     max-width: 100%;
     height: auto;
-    
+
 }
 
-h1{
+h1 {
     padding: 1rem;
     color: blue;
 }
 
 
-.card-text{
+.card-text {
     color: blueviolet;
 }
 
-.card-title{
+.card-title {
     color: rgb(222, 22, 22);
 }
 
-.card-img-top{
-    object-fit:cover;
+.card-img-top {
+    object-fit: cover;
 }
 
 
-.last-col{
+.last-col {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
@@ -65,16 +66,16 @@ h1{
 
 @media screen and (max-width:600px) {
 
-    .last-col{
+    .last-col {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
 
 
-.h2{
+.h2 {
     font-size: small;
     font-weight: 900;
 }
@@ -82,34 +83,35 @@ h1{
 
 
 .footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
 }
 
 .footer .container {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.footer-info, .footer-social {
-    margin: 10px 0; 
+.footer-info,
+.footer-social {
+    margin: 10px 0;
 }
 
 .footer-social ul {
-    list-style: none; 
-    padding: 0; 
+    list-style: none;
+    padding: 0;
 }
 
 .footer-social ul li {
-    display: inline; 
-    margin: 0 10px; 
+    display: inline;
+    margin: 0 10px;
 }
 
 .footer-social ul li a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -122,12 +124,13 @@ h1{
 
 @media (min-width: 600px) {
     .footer .container {
-        flex-direction: row; 
-        justify-content: space-between; 
-        text-align: left; 
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
     }
-    
-    .footer-info, .footer-social {
+
+    .footer-info,
+    .footer-social {
         flex: 1;
         margin: 0 20px;
     }
