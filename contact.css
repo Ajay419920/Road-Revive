@@ -46,9 +46,11 @@ main {
 .contact-details, .contact-form {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid hsl(0, 0%, 87%);
     border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .contact-details h3, .contact-form h3 {
     margin-bottom: 15px;
@@ -62,6 +64,7 @@ main {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form button {

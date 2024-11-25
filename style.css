@@ -33,7 +33,7 @@ h1{
     color: brown;
    
 }
-  
+
 .home{
     background-image: url("image/b.jpg");
     background-repeat: no-repeat;
@@ -41,6 +41,7 @@ h1{
     height: 620px;
     color: #fff;
     text-align: center;
+    box-shadow: 4px 4px 10px rgba(249, 248, 248, 0.881);
    
 }
 
